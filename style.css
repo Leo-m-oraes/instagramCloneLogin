@@ -193,3 +193,36 @@ body {
   text-decoration: none;
   font-weight: 300;
 }
+@media only screen and (max-width: 393px) {
+  body {
+    overflow: hidden;
+  }
+  .container-img {
+    display: none;
+  }
+  .content {
+    width: 100vw;
+    padding: 0 5%;
+  }
+  .content .input {
+    width: 80vw;
+    padding: 0 5%;
+  }
+  .content .input input {
+    width: 100vw;
+  }
+
+  .content .input button {
+    width: 70vw;
+  }
+
+  .footer .containerFooter {
+    height: 15vh;
+    overflow: hidden;
+    width: 80vw;
+    padding: 5% 0;
+  }
+  .footer .containerFooter ul {
+    gap: 1rem;
+  }
+}
