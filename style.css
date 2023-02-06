@@ -1,0 +1,195 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  font-size: 62.5%;
+  background-color: #fafafa;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 10%;
+}
+.container-img {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.container-img img {
+  height: 39rem;
+  position: relative;
+}
+.container-img .insta {
+  height: 34rem;
+  position: absolute;
+  left: 9.5rem;
+  bottom: 3.6rem;
+  transition: all 2s ease-in-out;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 1rem 0 1rem;
+}
+
+.content .input {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .input input {
+  width: 15vw;
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+  margin-bottom: 0.8rem;
+}
+.content input::placeholder {
+  color: #929292;
+}
+.content input:focus-within {
+  outline: 1px solid #929292;
+  border-radius: 3px;
+}
+
+.content .input button {
+  width: 15vw;
+  border: none;
+  background-color: #66b6f9;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.content button:hover {
+  transition: 0.5s ease;
+  opacity: 95%;
+}
+
+.content img {
+  height: 2.9rem;
+  margin-bottom: 2rem;
+}
+
+.content p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #8e8e8e;
+}
+
+.content .links {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.content .links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #385185;
+  font-weight: 600;
+}
+.content .links .bi-facebook {
+  margin-right: 0.7rem;
+}
+
+.content .links .forgotPassword {
+  color: #385185;
+  font-size: 1rem;
+  margin-top: 0.7rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.content .register {
+  padding: 2rem 0;
+  font-size: 1rem;
+}
+
+.content .register span {
+  color: #262626;
+}
+.content .register a {
+  text-decoration: none;
+  color: #399af7;
+  font-weight: 600;
+}
+
+.content .app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content .app h5 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: #262626;
+}
+
+.content .app .btn {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.content .app .btn button {
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 100vw;
+}
+.footer .containerFooter {
+  height: 5rem;
+  padding: 2%;
+}
+
+.footer .containerFooter ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.containerFooter li a {
+  text-decoration: none;
+  color: #929292;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.containerFooter li a:hover {
+  border-bottom: 1px solid #1f1e1e;
+  transition: 0.7s;
+}
+.containerFooter .copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0.5vh;
+  gap: 1.5rem;
+  padding: 3%;
+}
+
+.containerFooter .copy a {
+  font-size: 1rem;
+  color: #929292;
+  text-decoration: none;
+  font-weight: 300;
+}
